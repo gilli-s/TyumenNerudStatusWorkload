@@ -13,19 +13,60 @@
 	<title>Counter</title>
 </head>
 <body>
-	<table>
-  <tr>
-    <th colspan="2">Загруженность карьеров</th>
-  </tr>
-  <tr>
-    <td>оз. Андреевское</td>
-    <td>Муллашовский </td>
-  </tr>
-  <tr>
-    <td id="resultAndreevskoe"></td>
-    <td id="resultMulashevo"></td>
-  </tr>
-</table>
+    <div class="faq_item">
+        <div class="faq_item_title">
+            <div class="faq_item_title_inner">
+                Загруженность карьеров
+                <span class="icon"><img class="down img-arrow" src="image/down-arrow.svg" alt=""></span>
+            </div>
+        </div>
+        <div class="faq_item_body">
+        	<!--<div class="infoStatus">
+        		<div class="infoBlock">
+	        		<div class="infoBlockLine ">
+	        			<img class="imgStatus" src="image/happy.svg" alt="">
+	        		</div>
+	        		<div class="textStatus infoBlockLine">
+	        			<span>Свободно</span>
+	        		</div>
+	        	</div>
+	        	<div class="infoBlock">
+	        		<div class="infoBlockLine">
+	        			<img class="imgStatus" src="image/middle.svg" alt="">
+	        		</div>
+	        		<div class="textStatus infoBlockLine">
+	        			<span>Средняя загрузка</span>
+	        		</div>
+	        	</div>
+	        	<div class="infoBlock">
+	        		<div class="infoBlockLine">
+	        			<img class="imgStatus" src="image/sad.svg" alt="">
+	        		</div>
+	        		<div class="textStatus infoBlockLine">
+	        			<span>Наибольшая загрузка</span>
+	        		</div>
+	        	</div>
+	        	<div class="infoBlock">
+	        		<div class="infoBlockLine">
+	        			<img class="imgStatus" src="image/sleepy.svg" alt="">
+	        		</div>
+	        		<div class="textStatus infoBlockLine">
+	        			<span>Не работает</span>
+	        		</div>
+	        	</div>
+        	</div> -->
+           <table>
+					  <tr>
+					    <td>оз. Андреевское</td>
+					    <td>Муллашовский </td>
+					  </tr>
+					  <tr>
+					    <td id="resultAndreevskoe"></td>
+					    <td id="resultMulashevo"></td>
+					  </tr>
+					</table>
+        </div>
+    </div>
 	<script src="script.js"></script>
 </body>
 </html>

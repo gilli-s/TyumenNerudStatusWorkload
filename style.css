@@ -1,8 +1,75 @@
 table{
 	border-collapse: collapse;
+	margin: auto;
 }
 td , th{
 	text-align: center;
-	padding: 3px; /* Поля вокруг содержимого таблицы */
-  border: 1px solid black;
+	 /* Поля вокруг содержимого таблицы */
+ /* border: 1px solid black;*/
+}
+td{
+	padding: 0 10px 10px 10px;
+}
+
+.img-arrow{
+	width: 10px;
+}
+
+.imgStatus{
+	width: 50px;
+}
+
+
+.faq_item{
+    box-sizing: border-box;
+    border-left: 2px solid #DE281B;
+    background: #F7F7F7;
+    padding: 15px;
+    border-radius: 2px;
+    position: relative;
+    /*color: #192430; */
+    width: 350px;/*поменять на бордер бокс*/
+}
+
+.faq_item_title{
+    box-sizing: border-box;
+    font-size: 1rem;
+    position: relative;
+    text-align: center;
+}
+.faq_show_all .faq_item_title{
+    font-weight: 900;
+    padding-left: 23px;
+    margin-top: 20px;
+}
+.faq_item_title_inner{
+    display: inline-block;
+    position: relative;
+    padding: 0 60px 0 0;
+    cursor: pointer;
+    width: 100%;
+}
+.faq_item_title_inner:hover:before{
+    transform: translateY(1px);
+}
+.faq_item_title_inner:before{
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    cursor: pointer;
+    transition: .2s;
+    transition-timing-function: ease-in-out;
+}
+.faq_item_title_inner.open:before{
+    transform: rotate(180deg);
+}
+.faq_item_body{
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+    width: 100%
 }
